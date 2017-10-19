@@ -2,3 +2,34 @@
   background-image: url(../images/backgrounds/landing.jpg);
   text-align: center;
 }
+
+.break{
+  background-image: url(../images/foodtop/breakfast.jpg);
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+.lunch{
+  background-image: url(../images/foodtop/lunch.jpg);
+  padding: 16px;
+  text-align: center;
+  color: white;
+
+}
+
+.dinner{
+  background-image: url(../images/foodtop/dinner.jpg);
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+.container-fluid{
+  overflow: hidden;
+}
+
+.offset-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
