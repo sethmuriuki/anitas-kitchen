@@ -5,14 +5,18 @@
 
 .break{
   background-image: url(../images/foodtop/breakfast.jpg);
-  padding: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px;
   text-align: center;
   color: white;
 }
 
 .lunch{
   background-image: url(../images/foodtop/lunch.jpg);
-  padding: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px;
   text-align: center;
   color: white;
 
@@ -20,7 +24,9 @@
 
 .dinner{
   background-image: url(../images/foodtop/dinner.jpg);
-  padding: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px;
   text-align: center;
   color: white;
 }
@@ -33,3 +39,7 @@
     padding-left: 0;
     padding-right: 0;
 }
+.row{
+  margin-top: 0px;
+}
+font-family: 'Quicksand', sans-serif;
