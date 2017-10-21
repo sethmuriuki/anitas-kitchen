@@ -1,45 +1,62 @@
-.start{
+.start {
   background-image: url(../images/backgrounds/landing.jpg);
   text-align: center;
+  font-size: 22px;
+  color: white;
 }
 
-.break{
+.happy {
+  background-color: grey;
+  padding: 15px;
+  text-align: center;
+  color: black;
+}
+
+.party {
+  background-color: orange;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+.break {
   background-image: url(../images/foodtop/breakfast.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 35px;
+  padding: 40px;
   text-align: center;
   color: white;
 }
 
-.lunch{
+.lunch {
   background-image: url(../images/foodtop/lunch.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 35px;
+  padding: 40px;
   text-align: center;
   color: white;
-
 }
 
-.dinner{
+.dinner {
   background-image: url(../images/foodtop/dinner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 35px;
+  padding: 40px;
   text-align: center;
   color: white;
 }
 
-.container-fluid{
+.container-fluid {
   overflow: hidden;
 }
 
 .offset-0 {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
-.row{
+
+.row {
   margin-top: 0px;
 }
+
 font-family: 'Quicksand', sans-serif;
