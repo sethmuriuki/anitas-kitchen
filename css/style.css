@@ -5,6 +5,12 @@
   color: white;
 }
 
+.inline{
+  display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
 .happy {
   background-color: grey;
   padding: 15px;
@@ -45,7 +51,24 @@
   text-align: center;
   color: white;
 }
-
+.foodtext{
+  float: left;
+}
+.food{
+  display:inline-table;
+    margin-left: auto;
+    margin-right: auto;
+    height: 15px;
+  }
+  .drinktext{
+    float: right;
+  }
+  .drink{
+    display:inline-table;
+      margin-left: auto;
+      margin-right: auto;
+      height: 15px;
+    }
 .container-fluid {
   overflow: hidden;
 }
