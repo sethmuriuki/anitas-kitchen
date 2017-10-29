@@ -124,4 +124,29 @@ border: 2px solid #F15A29;
 padding: 0;
 }
 
+.food{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 50px;
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+  background-attachment: fixed;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.email_panel{
+  text-align: center;
+background-image: url(../images/backgrounds/subscribe.jpg);
+padding: 70px;
+background-attachment: fixed;
+}
+
+.footer-menu {
+  padding: 20px;
+  background-color:red;
+  text-align:center;
+  background-color: #F15B29;
+}
+
 font-family: 'Quicksand', sans-serif;
