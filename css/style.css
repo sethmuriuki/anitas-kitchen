@@ -1,80 +1,127 @@
 .start {
+  height: 90vh;
   background-image: url(../images/backgrounds/landing.jpg);
+  background-size: cover;
+  padding-top: 10%;
   text-align: center;
   font-size: 22px;
   color: white;
 }
-
-.inline{
-  display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30px;
+.happy{
+padding: 0;
 }
-.happy {
-  background-color: grey;
-  padding: 15px;
-  text-align: center;
+.time{
+  background-color:darkorange;
   color: black;
 }
-
 .party {
-  background-color: orange;
-  padding: 15px;
-  text-align: center;
-  color: white;
+  height: 96.5px;
+  width: 300px;
 }
 
-.break {
-  background-image: url(../images/foodtop/breakfast.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 40px;
-  text-align: center;
-  color: white;
+.overlay-mini {
+position: absolute;
+bottom: 0;
+right: 0;
+background:rgba(0,0,0,0.0);
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
 }
 
-.lunch {
-  background-image: url(../images/foodtop/lunch.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 40px;
-  text-align: center;
-  color: white;
+.imgwidth:hover .overlay-mini {
+position: absolute;
+bottom: 0;
+right: 0;
+background:rgba(250,250,250,0.5);
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: .5s ease;
 }
 
-.dinner {
-  background-image: url(../images/foodtop/dinner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 40px;
-  text-align: center;
-  color: white;
-}
-.fastfoodtext{
-  text-align: right;
+.imgwidth:hover .text {
+color: white;
 }
 
-  .drinktext{
-    float: right;
-  }
-  .drink{
-    display:inline-table;
-      margin-left: auto;
-      margin-right: auto;
-      height: 15px;
-    }
+.text {
+text-align: center;
+font-size: 200%;
+font-style: italic;
+color: white;
+padding-top: 25%;
+}
+
+.text1 {
+text-align: center;
+font-size: 200%;
+color: black;
+padding-top: 10%;
+}
+
+.text2 {
+text-align: center;
+font-size: 200%;
+color: black;
+padding-top: 10%;
+}
+
+#text3 {
+  padding-top: 15%;
+  text-align: left;
+  font-size: 16px;
+}
+
+.fast{
+margin: 15%;
+border-color: transparent;
+border-style: solid;
+border-width: 5px;
+border-radius: 5px;
+box-shadow: 0px 5px 5px grey;
+}
+
+.fast img {
+  height: 200px;
+  width: 435px;
+}
+
 .container-fluid {
-  overflow: hidden;
+  padding-top: 0;
 }
 
-.offset-0 {
-  padding-left: 0;
-  padding-right: 0;
+.image {
+    float: left;
+    margin: 0 0 10px 10px;
 }
 
-.row {
-  margin-top: 0px;
+.image1 {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.button {
+border: none;
+color: #F15A29;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 18px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.button1 {
+background-color: white;
+color: #orange;
+border: 2px solid #F15A29;
+}
+
+.bg-10{
+padding: 0;
 }
 
 font-family: 'Quicksand', sans-serif;
