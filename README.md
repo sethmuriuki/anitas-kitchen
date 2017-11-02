@@ -1,12 +1,11 @@
-# Independent Project
+# anitas-kitchen
 
-## Instructions
-  1) Please fork the Moringa School **mpft1-ip** repo to your own account.
-
-  2) Clone **your forked repo** to your own machine.`
-
-  3) Fill in the form under the [IP submission](http://moringaprep-ft.herokuapp.com/#10.html) heading in the LMS
-
-  4) Complete the independent project.
-  
-  5) Push your commits up to your forked repo.
+## Description
+IS a website that displays a restaurants menu, how to contact them and give them feedback
+## setup/installation
+clone  the repo
+## Technologies used
+1:html
+2:css
+## support
+For further enquiry or contribution contact me at sethkrm@gmail.com
