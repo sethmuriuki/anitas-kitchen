@@ -7,5 +7,6 @@ clone  the repo
 ## Technologies used
 1:html
 2:css
+3:javascript
 ## support
 For further enquiry or contribution contact me at sethkrm@gmail.com
